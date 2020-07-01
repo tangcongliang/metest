@@ -5,6 +5,7 @@
     <div class="txt">5555</div>
 
     <div class="txt" @click="devClick">重新修改下试试哈</div>
+    <div>又是一个新的功能的搞定了的</div>
   </div>
 </template>
 
