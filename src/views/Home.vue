@@ -13,6 +13,9 @@
 export default {
   name: "Home",
   components: {},
+  created() {
+    console.log(process.env.NODE_ENV, process.env.VUE_API_URL);
+  },
   methods: {
     devClick() {
       console.log("55555");
